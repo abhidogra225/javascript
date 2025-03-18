@@ -25,3 +25,18 @@ function logging(username){
     return `${username} , logged in`
 }
 console.log(logging("abhi")); //if nothing is send as the argument in the function cal then it gives the u derfinesd result
+
+
+function calculateCartPrice(...num){ //// here ... is a rest  operator
+    return num;
+
+}
+console.log(calculateCartPrice(20 , 30 ,49 , 90 , 50)); //after ...these operator the values are stores in the array
+
+
+const myNewArray    = [10 , 30 , 40 , 50];
+function secondValue(myval){
+    return  myval[1]; //this will return the 2nd value of the array
+
+}
+console.log(secondValue(myNewArray));
